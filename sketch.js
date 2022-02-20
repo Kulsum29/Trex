@@ -38,7 +38,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight/4);
+  createCanvas(windowWidth, windowHeight/3);
   
   sun = createSprite(width-50,100,10,10);
   sun.addAnimation("sun", sunAnimation);
